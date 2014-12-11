@@ -98,7 +98,6 @@ function! s:setup_keymaps() abort
         \ ['previewwin',    'P'],
         \ ['nexttag',       '<C-N>'],
         \ ['prevtag',       '<C-P>'],
-        "\ ['showproto',     '<Space>'],
         \ ['hidenonpublic', 'v'],
         \
         \ ['openfold',      ['+', '<kPlus>', 'zo']],
