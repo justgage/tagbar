@@ -947,7 +947,6 @@ function! s:MapKeys() abort
         \ ['previewwin',    'ShowInPreviewWin()'],
         \ ['nexttag',       'GotoNextToplevelTag(1)'],
         \ ['prevtag',       'GotoNextToplevelTag(-1)'],
-        \ ['showproto',     'ShowPrototype(0)'],
         \ ['hidenonpublic', 'ToggleHideNonPublicTags()'],
         \
         \ ['openfold',      'OpenFold()'],
@@ -2844,7 +2843,6 @@ function! s:PrintHelp() abort
         silent  put ='\" ' . s:get_map_str('previewwin') . ': Show tag in preview window'
         silent  put ='\" ' . s:get_map_str('nexttag') . ': Go to next top-level tag'
         silent  put ='\" ' . s:get_map_str('prevtag') . ': Go to previous top-level tag'
-        silent  put ='\" ' . s:get_map_str('showproto') . ': Display tag prototype'
         silent  put ='\" ' . s:get_map_str('hidenonpublic') . ': Hide non-public tags'
         silent  put ='\"'
         silent  put ='\" ---------- Folds ----------'
